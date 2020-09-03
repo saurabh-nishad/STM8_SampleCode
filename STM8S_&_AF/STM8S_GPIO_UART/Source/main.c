@@ -81,7 +81,7 @@ void main(void)
   uart_receive_enable;						// enable receive process
     
   enableInterrupts();						// enable interrupts
-  data = "Hello Sweety hoa are you\r\n";
+  data = "Hello buddy, how are you\r\n";
   
   while (1)
   {
