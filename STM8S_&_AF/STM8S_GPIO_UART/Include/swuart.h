@@ -48,13 +48,13 @@
 //----------------------------------------------------------
 
 #ifdef SWUART_TRANSMIT_USED
-#define	UART_TxPORT	(GPIOA)
-#define	UART_TxPIN	(GPIO_PIN_5)
+#define	UART_TxPORT	(GPIOD)
+#define	UART_TxPIN	(GPIO_PIN_2)
 #endif
 
 #ifdef SWUART_RECEIVE_USED
-#define  	UART_RxPORT	(GPIOA)
-#define	UART_RxPIN	(GPIO_PIN_6)
+#define  	UART_RxPORT	(GPIOD)
+#define	UART_RxPIN	(GPIO_PIN_0)
 #endif
 
 #ifdef TEST_PIN_USED
